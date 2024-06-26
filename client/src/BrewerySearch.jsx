@@ -41,7 +41,7 @@ const BrewerySearch = () => {
             {error && <div className="alert alert-danger mt-3">{error}</div>}
 
             {searchResults.length > 0 && (
-                <div className="mt-4">
+                <div className="mt-4">   
                     <h3>Search Results:</h3>
                     <ul className="list-group">
                         {searchResults.map(brewery => (
